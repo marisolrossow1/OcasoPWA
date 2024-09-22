@@ -1,0 +1,360 @@
+:root {
+  --color-fondo: #f5f5f5;
+  --color-principal: #e6dcd3;
+  --color-secundario: #b4a79e;
+  --color-acento: #6b4e36;
+  --color-iconos: #bda18c;
+  --color-texto: #000000;
+}
+
+body {
+  font-family: "Inter", sans-serif !important;
+  background-color: var(--color-principal) !important;
+}
+
+#logo {
+  background-image: url("../images/ocaso_logo.png");
+  background-size: contain;
+  width: 200px;
+  height: 40px;
+  font-size: 0;
+}
+
+.hero-home {
+  background-image: url("../images/biblioteca.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.hero-home .inner-container {
+  height: 75vh;
+}
+
+.background-search {
+  background-color: var(--color-fondo);
+  padding: 2rem;
+  border-radius: 20px;
+  width: 40%;
+}
+
+.background-search .form-control {
+  border-radius: 20px;
+  border: none;
+  background-color: var(--color-principal);
+  color: var(--color-texto);
+}
+
+.btn-search {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  color: var(--color-fondo);
+  background-color: var(--color-acento) !important;
+  border-radius: 20px;
+  border: none;
+  padding: 0.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 600 !important;
+  color: var(--color-acento) !important;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: 600 !important;
+  color: var(--color-acento) !important;
+  font-size: 28px;
+}
+
+#showBooks {
+  margin-top: 2rem;
+}
+
+.search {
+  margin-top: 2rem;
+}
+
+#highlightBooks {
+  margin-top: 2rem;
+}
+
+#highlightBooks h1 {
+  margin-bottom: 1rem;
+}
+
+#highlightBooks .card {
+  width: 18rem;
+}
+
+.card {
+  width: 18rem !important;
+}
+
+.imagenCard {
+  height: 450px;
+  object-fit: cover;
+}
+
+#apiError {
+  text-align: center;
+}
+
+nav.navbar {
+  background-color: var(--color-iconos) !important;
+}
+
+nav.navbar li a {
+  font-size: 18px;
+}
+
+.nav-item a {
+  color: var(--color-fondo) !important;
+}
+
+.active {
+  font-weight: 600 !important;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: end !important;
+}
+
+.card {
+  background-color: var(--color-fondo) !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--color-texto) !important;
+}
+
+.card-text {
+  font-weight: 500;
+  font-size: 18px !important;
+  color: var(--color-acento) !important;
+}
+
+.btn-custom {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: var(--color-fondo);
+  background-color: var(--color-acento) !important;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  width: 100%;
+}
+
+.btn-custom:hover {
+  color: var(--color-acento);
+  background-color: var(--color-principal) !important;
+}
+
+footer {
+  background-color: var(--color-iconos);
+}
+
+.footer-columnas h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-texto);
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer-columnas ul {
+  padding-left: 0;
+}
+
+.footer-columnas ul li,
+.footer-columnas ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2c2c2c;
+  text-decoration: none;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+  list-style-type: none;
+}
+
+footer {
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.footer-columnas {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.footer-columnas .downloads a {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: var(--color-fondo);
+  background-color: var(--color-acento);
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  border: none;
+  width: 50%;
+  margin-bottom: 0.5rem;
+}
+
+footer p:last-of-type {
+  margin-top: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--color-texto);
+}
+
+.modal-content {
+  background-color: var(--color-fondo) !important;
+}
+
+.modal-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-acento);
+}
+
+.modal-body div {
+  margin-bottom: 1rem !important;
+}
+
+.modal-body p b {
+  color: var(--color-acento);
+  font-weight: 700;
+}
+
+.modal-body p {
+  color: var(--color-texto);
+  font-weight: 400;
+}
+
+.modal-body #readMore {
+  color: #6b4e36;
+  font-weight: 700;
+}
+
+.modal-body .btn-modal {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.modal-body .btn-modal a {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  padding: 8px 18px 8px 18px;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  margin-left: 1.5rem;
+}
+
+.modal-body .btn-modal a:first-child {
+  color: var(--color-fondo);
+  background-color: var(--color-acento);
+}
+
+.modal-body .btn-modal a:last-child {
+  color: var(--color-acento);
+  background-color: var(--color-principal);
+}
+
+.btn-modal-footer {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  padding: 8px 18px 8px 18px;
+  text-decoration: none;
+  border: none;
+  margin-left: 1.5rem;
+}
+
+.btn-modal-footer:first-of-type {
+  color: var(--color-acento);
+  background-color: var(--color-principal);
+}
+
+.btn-modal-footer:last-of-type {
+  color: var(--color-fondo);
+  background-color: var(--color-acento);
+}
+
+.favorites .btn-fav {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  padding: 8px 18px 8px 18px;
+  text-decoration: none;
+  border: none;
+  color: var(--color-fondo);
+  background-color: var(--color-acento);
+  display: flex;
+  margin: 2rem auto 3rem;
+}
+
+@media screen and (max-width: 576px) {
+  .background-search {
+    width: 80% !important;
+  }
+
+  .hero-home {
+    height: 30vh !important;
+  }
+}
+
+/* 767 */
+
+@media screen and (max-width: 990px) {
+  .navbar-collapse {
+    display: flex;
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .hero-home {
+    height: 60vh !important;
+    position: relative;
+  }
+
+  .background-search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-home {
+    height: 60vh;
+    position: relative;
+  }
+
+  .background-search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
